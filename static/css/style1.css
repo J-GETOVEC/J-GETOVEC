@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(48, 48, 48, 1.0) ;
+
+}
+a.t1 {
+	font-family: Bahnschrift, sans-serif;
+	color: gray;
+	font-size: smaller;
+}
+td.t1{
+	width: 100;
+	padding-right: 5px;
+	padding-left: 20px;
+	text-align: center;
+
+}
+
+
+
+a.t2 {
+	font-family: Bahnschrift, sans-serif;
+	color: red;
+
+}
+
+
+
+
+h1.t2 {
+	font-family: Consolas;
+	color: white;
+	font-size: revert-layer;
+}
+
+p.yellowp{
+	color: yellow;
+}
+
+p.whiter{
+	color: white;
+}
+td.t2{
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-left: 0;
+
+	text-align: left;
+
+}
+td.t3{
+	padding-right: 20px;
+	padding-top: 50px;
+
+
+}
+
+td.t4{
+	padding-left: 100px;
+	padding-top: 20px;
+
+
+}
+
+td.t5{
+	width: 1000;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+p.yellowp1{
+	color: yellow;
+
+}

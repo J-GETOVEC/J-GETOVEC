@@ -1,0 +1,18 @@
+{% extends 'wrapper.html' %}
+
+{% block title%}Главная{% endblock %}
+
+{% block content %}
+<div class="container-xl">
+    <div class="row">
+        {% for i in flats %}
+        <div class="col">
+            <h3>Специальное предложение</h3><img src="{{i.rayon}}" height="250">
+
+            <h4>Количество комнат {{i.number_of_rooms}}</h4>
+            <a href="http://127.0.0.1:5000/flat/{{i.id}}">Цена {{ i.price }}</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
